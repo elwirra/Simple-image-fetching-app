@@ -2,7 +2,7 @@ import '../styles/searchBar.css';
 import { useState } from "react";
 
 function SearchBar({ onSubmit }) {
-    const [term, setTerm] = useState('cars');
+    const [term, setTerm] = useState('Find some photos');
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
